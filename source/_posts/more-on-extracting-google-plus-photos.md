@@ -13,7 +13,7 @@ var url = 'http://picasaweb.google.com'
         + 'albumid/5646665615382099025'
         + '?alt=json'
  
-request.get(url, function (err, res, body) {
+request.get(url, function(err, res, body) {
     var gplus = JSON.parse(body)
     var len = gplus.feed.entry.length
     ;(function iterator(i) {
