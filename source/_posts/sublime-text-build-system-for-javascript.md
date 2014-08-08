@@ -11,7 +11,7 @@ I downloaded NodeJS package too, and use it as build system for JavaScript. Plea
 
 Problem is, it displays nothing when I build from this package. I remember I had the same issues before, but for the life of me, I can't remember how I solved it. Well, Google is your friend. :) I decided to just create a new build system, and leave the NodeJS package alone. From the Sublime Text menu, select Tools --> Build System --> New Build System:
 
-![png image file](st-new-build-system.png)
+![png image file](http://flipjs.io/st-new-build-system.png)
 
 Then, copy and paste this code:
 ```
