@@ -48,7 +48,7 @@ Its pretty simple, actually. You just pass the object to watch, and a listener (
 
 Here's the result:
 
-![console](http://flipjs.io/observe.png)
+![console](/images/observe.png)
 
 As you can see, the code block has finished already ('End program text'), but the listener has stayed in memory, and async callback will be triggered when there is a change in the object being watched.
 
