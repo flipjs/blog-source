@@ -14,7 +14,8 @@ Problem is, it displays nothing when I build from this package. I remember I had
 ![png image file](/images/st-new-build-system.png)
 
 Then, copy and paste this code:
-```
+
+```sh
 {
   "cmd": ["node", "$file"],
   "selector": "source.js"
@@ -23,12 +24,12 @@ Then, copy and paste this code:
 
 And then, save it as, say "Node.sublime-build". There is a problem though, when I execute Sublime Text from the dock or finder, it can't find node. It could be the environment variable $PATH does not exist in finder shell or the path to node is not defined. Well, not to worry, it is an easy fix. Just prepend 'node' with '/usr/local/bin' (or whereever it was installed) in sublime-build file:
 
-```
+```sh
 {
   "cmd": ["/usr/local/bin/node", "$file"],
   "selector": "source.js"
 }
-````
+```
 
 And, that's it!
 

@@ -3,7 +3,7 @@ date: 2014-08-08 11:34:08
 tags: [javascript, node, gplus]
 ---
 
-This is a follow-up on my recent post called [Extract photos from Google Plus](/2014/08/07/extract-photos-from-google-plus/). A close friend of mine, Ronneil at [http://c0debreaker.github.io/](http://c0debreaker.github.io/), suggested that we can also use an external module called ['request'](https://github.com/mikeal/request), instead of the native module http. It is much simpler to use to make http calls. See the code below:
+This is a follow-up on my recent post called [Extract photos from Google Plus](/2014/08/07/extract-photos-from-google-plus/). A close friend of mine (and Angular Hacker), Ronneil at [c0debreaker.github.io/](http://c0debreaker.github.io/), suggested that we can also use an external module called ['request'](https://github.com/mikeal/request). This is much simpler to use to make http calls, than using the native module 'http'. See the code below:
 
 ```js
 var request = require('request')
