@@ -9,7 +9,7 @@ This is a follow-up on my recent post called [Extract photos from Google Plus](/
 npm install request
 {% endcodeblock %}
 
-This is much simpler to use to make http calls, than using the native module [**http**](http://nodejs.org/api/http.html). See the code below:
+This is much simpler to use to make http calls, than using the core module [**http**](http://nodejs.org/api/http.html). See the code below:
 
 {% gist 6c24d36f0287e8e0ef7f %}
 
