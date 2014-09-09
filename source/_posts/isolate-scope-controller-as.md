@@ -1,5 +1,5 @@
 title: AngularJS - Isolate scope properties in controller context via controllerAs
-date: 2014-09-09 02:37:59
+date: 2014-09-09 04:00:00
 tags: angular
 ---
 
@@ -27,3 +27,5 @@ Here's the output/view:
 ![png image file](/images/bindtoctrl@2x.png)
 
 If writing directives or isolate scope is new to you, check out [egghead.io](https://egghead.io/) videos. John Lindquist also explained the differences between '@', '&', and '=', and when to use it.
+
+You can view the full source code of this at [https://github.com/flipjs/bindtocontroller](https://github.com/flipjs/bindtocontroller). Let me know your thoughts in the comments section. Thanks for reading!
